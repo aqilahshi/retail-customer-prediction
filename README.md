@@ -5,6 +5,7 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-green)
 ![SHAP](https://img.shields.io/badge/Explainable%20AI-SHAP-red)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-FF4B4B)
+![Azure](https://img.shields.io/badge/Hosted_on-Azure-blue)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
@@ -18,6 +19,16 @@ Instead of relying solely on descriptive analytics, this project applies predict
 This project reuses the analytical dataset generated from my previous project:
 
 ➡️ **Retail Data Engineering Pipeline**
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Try the deployed application here:**
+
+**https://retail-ai-aqilah-bze9g2anaxhjfage.eastasia-01.azurewebsites.net**
+
+The application is deployed on **Microsoft Azure App Service** with **GitHub Actions** for automated CI/CD deployment.
 
 ---
 
@@ -241,13 +252,11 @@ streamlit run app/app.py
 
 Potential future enhancements include:
 
-- Hyperparameter tuning using GridSearchCV
-- Customer Lifetime Value (CLV) prediction
-- Real-world retail datasets
-- Cloud deployment (AWS/Azure/GCP)
-- MLOps pipeline
+- Containerize the application using Docker
+- Deploy using Azure Container Apps or Kubernetes
+- Build an automated MLOps pipeline
 - Real-time prediction using Kafka
-
+  
 ---
 
 ## 🔗 Related Project
